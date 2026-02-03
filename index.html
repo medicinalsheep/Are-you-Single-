@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ARE YOU SINGLE INQUIRY 2026 EDITION</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #e0e0ff;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.5;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(20, 20, 50, 0.85);
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 60px rgba(180,100,255,0.4);
+      border: 1px solid #6644aa;
+    }
+    h1 {
+      text-align: center;
+      color: #cc99ff;
+      text-shadow: 0 0 20px #aa88ff;
+      margin-bottom: 50px;
+    }
+    .scroll {
+      background: #0a001f;
+      border: 2px dashed #8855dd;
+      padding: 25px;
+      border-radius: 12px;
+      margin: 30px 0;
+      font-family: monospace;
+      white-space: pre-wrap;
+      color: #d4bbff;
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+    .question {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin: 40px 0 20px;
+      color: #ffcc99;
+    }
+    .options {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin: 25px 0;
+    }
+    label {
+      font-size: 1.15rem;
+      cursor: pointer;
+    }
+    input[type="radio"] {
+      transform: scale(1.4);
+      margin-right: 12px;
+    }
+    button {
+      background: linear-gradient(90deg, #7b2cbf, #c77dff);
+      color: white;
+      border: none;
+      padding: 16px 40px;
+      font-size: 1.3rem;
+      border-radius: 50px;
+      cursor: pointer;
+      margin: 30px auto;
+      display: block;
+      box-shadow: 0 8px 25px rgba(123,44,191,0.5);
+      transition: all 0.3s;
+    }
+    button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 35px rgba(123,44,191,0.7);
+    }
+    button:disabled {
+      background: #444;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+    #step2, #step3, #reveal {
+      display: none;
+    }
+    #confirmation {
+      width: 100%;
+      padding: 14px;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      border: 2px solid #6644aa;
+      background: #110033;
+      color: #e0d4ff;
+      margin: 20px 0;
+    }
+    #final-email {
+      font-size: 1.8rem;
+      color: #ffdd88;
+      text-align: center;
+      padding: 30px;
+      background: rgba(80,30,120,0.4);
+      border-radius: 16px;
+      border: 3px dashed #ffaa55;
+      margin-top: 40px;
+      word-break: break-all;
+    }
+    .tiny {
+      font-size: 0.8rem;
+      color: #9988cc;
+      text-align: center;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>ARE YOU SINGLE?™<br>2026 EDITION</h1>
+
+  <div class="scroll">
+      Dear prospective romanic partner, please read the complete contents of this Inquisition Clause carefully before proceeding to the official loyalty & purity verification questions below. 
+
+      The Inquisition Clause
+
+      Are you currently, or have you at ANY point during the relevant temporal jurisdiction (which shall be interpreted as broadly as legally, emotionally, spiritually, astrologically, or TikTok-historically possible), engaged in, participated in, contemplated, daydreamed about, liked a post concerning, retweeted adjacent to, accidentally opened a DM from, or in any way whatsoever—whether knowingly, unknowingly, subconsciously, telepathically, through astral projection, drunk-texting your ex’s cousin, finsta lurking, or manifesting in the group chat—any form, manner, degree, flavor, vibe, situationship-adjacent adjacency, or quantum entanglement of:
+
+      communication, association, interaction, correspondence, eye contact (IRL or via FaceTime filters), vibe check, energy exchange, aura collision, proximity within six Snapchat-geofences, flirtation (micro, macro, passive-aggressive, or weaponized), banter (light, dark, chaotic neutral), “u up?” signaling, rhetorical “wyd” deployment, emoji escalation (especially the eggplant/peach/clown/joker combinations), voice note thirst traps, 0.5× speed thirst edits, BeReal radar pings, temporary-location-sharing shenanigans, “accidental” story replies, “this you?” memes sent at 3:47 a.m., or any other form of verbal, non-verbal, pre-verbal, post-verbal, or para-social communion whatsoever
+
+      with ANY other male-identifying, formerly-male-identifying, might-one-day-identify-as-male, or adjacent-to-maleness-presenting individual or individuals [...long list abbreviated for space...],
+
+      whether said engagement be: romantic, quasi-romantic, crypto-romantic, platonic-with-a-wink, homoerotic tension disguised as “just bros”, sexual, intimate, casual, serious, sneaky-link-coded, orbiting, haunting, soft-launching, hard-launching, benching, breadcrumbed, love-bombed-then-ghosted, or simply “vibing at unacceptable velocity”
+
+      conducted via ANY medium now known or hereafter invented, including smoke signals, carrier pigeon, Snapchat, Telegram secret chats, WhatsApp disappearing messages, iMessage, Instagram vanish mode, BeReal, TikTok duets, X DMs, LinkedIn, Roblox, Pokémon GO, or literal handwritten notes passed under stall doors… ?
+
+      Answer with full spiritual honesty or face the eternal suspicion void.
+  </div>
+
+  <div class="question">YOUR OFFICIAL ANSWER:</div>
+
+  <div class="options">
+    <label><input type="radio" name="q1" value="yes" onclick="checkAnswer()"> Yes, I admit guilt</label>
+    <label><input type="radio" name="q1" value="no"  onclick="checkAnswer()"> No, I am pure of heart and clean of DMs</label>
+  </div>
+
+  <div id="step2">
+    <div class="question">FINAL SECURITY RITUAL – Type the following phrase exactly:</div>
+    <p style="font-family:monospace; font-size:1.3rem; color:#ffbb66; margin:20px 0;">
+      I solemnly swear I have never vibed at unacceptable velocity with any male-adjacent entity
+    </p>
+    <input type="text" id="confirmation" placeholder="Type the phrase here…" oninput="checkConfirmation()"/>
+
+    <button id="submitBtn" disabled onclick="revealEmail()">I have spoken the sacred words – PROCEED</button>
+  </div>
+
+  <div id="reveal">
+    <div id="final-email">
+      Contact address unlocked:<br><br>
+      makemeadad@icloud.com
+    </div>
+    <p class="tiny">(do not abuse this sacred address or the vibes will curse you)</p>
+  </div>
+
+</div>
+
+<script>
+function checkAnswer() {
+  const yes = document.querySelector('input[name="q1"][value="yes"]');
+  const step2 = document.getElementById('step2');
+  const reveal = document.getElementById('reveal');
+
+  if (yes && yes.checked) {
+    alert("✖ ACCESS DENIED – IMPURE VIBES DETECTED ✖\n\nTry again in another lifetime.");
+    yes.checked = false;
+    step2.style.display = "none";
+    reveal.style.display = "none";
+  } else {
+    step2.style.display = "block";
+    reveal.style.display = "none";
+  }
+}
+
+function checkConfirmation() {
+  const input = document.getElementById('confirmation').value.trim();
+  const expected = "I solemnly swear I have never vibed at unacceptable velocity with any male-adjacent entity";
+  const btn = document.getElementById('submitBtn');
+
+  btn.disabled = (input !== expected);
+}
+
+function revealEmail() {
+  document.getElementById('reveal').style.display = "block";
+  document.getElementById('step2').style.display = "none";
+  window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>
